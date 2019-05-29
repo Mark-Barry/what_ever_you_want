@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" href="./Styles/myStyles.css" />
+        <script src="./Scripts/myJavaScript.js"></script>
+
+        <meta http-equiv='refresh' content='4; ./Home.html'>
+
+        <title>War Strategy Library: About Us</title>
+    </head>
+
+    <body class="bgImage">
+        <!--Navigation Bar-->
+        <ul>
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./Gallery.html">Gallery</a></li>
+            <li class="dropdown">
+                <a href="./Books.html" class="dropbtn">Books</a>
+                <div class="dropdown-content">
+                <a href="./Books/ArtOfWar.html">The Art of War</a>
+                <a href="./Books/36Stratagems.html">The 36 Stratagems</a>
+                <a href="./Books/ThePrince.html">The Prince</a>
+                </div>
+            </li>
+            <li><a class="active" href="./AboutUs.html">About Us</a></li>
+        </ul>
+
+        <h1 id="aboutUs">You don't need to know anything about us. Move Along.</h1>
+
+
+        <div id="testbtndiv">
+            <input type="hidden" onload="onHelloClicked()">
+            <input type="button" value="Hello" onclick="onHelloClicked()" class="testbtn">
+            <input type="button" value="Goodbye" onclick="onGoodbyeClicked()" class="testbtn">
+            <input type="button" value="NO YOU" ondblclick="onNoYouClicked()" class="testbtn">
+            <input type="button" value="Change Buttons to red" onclick="changeTextColorRed()" class="testbtn">
+            <input type="button" value="Change Buttons to green" onclick="changeTextColorGreen()" class="testbtn">
+        </div>
+
+    </body>
+</html>

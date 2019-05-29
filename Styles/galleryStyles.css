@@ -1,0 +1,57 @@
+/*Gallery.html*/
+/* 
+  The expanding image container (positioning is needed to position the close button and the text) 
+*/
+.container {
+    position: unset;
+    display: none;
+    width: 600px;
+    height: 600px;
+}
+
+/*Gallery.html*/
+/* 
+  Expanding image text 
+*/
+#imgtext {
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    color: black;
+    font-size: 20px;
+}
+
+/*Gallery.html*/
+/* 
+  Closable button inside the image 
+*/
+.closebtn {
+    background-color: white;
+    position: relative;
+    top: 40px;
+    right: 0px;
+    color: black;
+    font-size: 35px;
+    cursor: crosshair;
+}
+
+/*Gallery.html*/
+/*
+  Sets attributes relating to the expanded image
+*/
+#expandedImg{
+    width: 100%;
+    height: auto;
+    border-style: hidden;
+}
+
+/*Gallery.html*/
+/*
+  Used in the gallery page to set up the small images to click on.
+*/
+.smallImage{
+  width: 80px;
+  height: 60px;
+  padding: 2px;
+}

@@ -1,0 +1,32 @@
+/*
+  Used on the images on the individual book pages. 
+  Rename this and make it less ambiguous
+*/
+.basicImage{
+    width: 24%;
+    height: 300px;
+    padding: 3px;
+}
+
+/*
+  Used on the video players on the individual book pages
+  Also rename this and make it less ambiguous
+*/
+#videoPlayer{
+    width: 75%;
+    height: auto;
+    padding-left: 15%;
+    /*padding-right: 15%;*/
+    padding-bottom: 20px;
+}
+
+.listleft{
+    width: 40%;
+    float: left;
+    align-content: center;
+}
+
+.videoright{
+  width: 60%;
+  float: right;
+}

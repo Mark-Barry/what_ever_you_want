@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" href="./Styles/myStyles.css" />
+        <link rel="stylesheet" href="./Styles/galleryStyles.css" />
+        <script src="./Scripts/myJavaScript.js"></script>
+
+        <title>War Strategy Library: Gallery</title>
+    </head>
+
+    <body class="bgImage">
+        <!--Navigation Bar-->
+        <ul>
+            <li><a href="./Home.html">Home</a></li>
+            <li><a class="active" href="./Gallery.html">Gallery</a></li>
+            <li class="dropdown">
+                <a href="./Books.html" class="dropbtn">Books</a>
+                <div class="dropdown-content">
+                <a href="./Books/ArtOfWar.html">The Art of War</a>
+                <a href="./Books/36Stratagems.html">The 36 Stratagems</a>
+                <a href="./Books/ThePrince.html">The Prince</a>
+                </div>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+        </ul>
+
+        <h1><em>The Art of War</em> by <em>Sun Tzu</em></h1>
+
+        <!--Small images-->
+        <img class="smallImage" src="./Images/quote1.jpg" alt="Every battle is won before it is fought" onclick="changeImage(this);">
+        <img class="smallImage" src="./Images/quote2.png" alt="In the midst of chaos there is also oppertunity" onclick="changeImage(this);">
+        <img class="smallImage" src="Images/quote3.jpg" alt="The supreme art of war is to subdue the enemy without fighting" onclick="changeImage(this);">
+        <img class="smallImage" src="./Images/looks_good.jpg" alt="looks good" onclick="changeImage(this);">
+        <img class="smallImage" src="./Images/boss.jpg" alt="When your boss asks for work suggestions" onclick="changeImage(this);">
+        <img class="smallImage" src="./Images/work.jpg" alt="when someone asks you a stupid question at work" onclick="changeImage(this);">
+        <img class="smallImage" src="./Images/avocado.jpg" alt="when you find the perfect avocado at the supermarket" onclick="changeImage(this);">
+        <img class="smallImage" src="./Images/looks_good.jpg" alt="looks good 2" onclick="changeImage(this);">
+
+        <!-- The expanding image container -->
+        <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <!-- Expanded image -->
+            <img id="expandedImg" src="./Images/smokeBG.jpg" alt="">
+            <!-- Image text -->
+            <div id="imgtext"></div>
+        </div>
+    </body>
+</html>
